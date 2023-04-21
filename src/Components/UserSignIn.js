@@ -80,7 +80,7 @@ const Signup = () => {
         <span>{errors.email}</span>
       </div>
       <div>
-        {/* <label htmlFor="password" className="lable">Password:</label> */}
+        
         <input type="password" name="password" value={formData.password} onChange={handleInputChange} className="input"/>
         <span className="span">{errors.password}</span>
       </div>

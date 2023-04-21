@@ -14,7 +14,7 @@ const stylePaper = {
     background: '#f8f8f9',
     position: 'relative',
     marginLeft:'35%',
-    marginTop: '70px'
+    marginTop: '71px'
 };
 
 const styleText = {
