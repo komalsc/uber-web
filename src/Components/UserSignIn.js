@@ -66,22 +66,22 @@ const Signup = () => {
               </div>
       <div className="form">
         {/* <label htmlFor="firstName"className="lable">First Name:</label> */}
-        <input type="text" name="firstName" value={formData.firstName} onChange={handleInputChange} className="input"/>
+        <input type="text" name="firstName" placeholder="name" value={formData.firstName} onChange={handleInputChange} className="input"/>
         <span>{errors.firstName}</span>
       </div>
       <div>
         {/* <label htmlFor="lastName"className="lable">Last Name:</label> */}
-        <input type="text" name="lastName" value={formData.lastName} onChange={handleInputChange} className="input"/>
+        <input type="text" name="lastName" placeholder="lastName" value={formData.lastName} onChange={handleInputChange} className="input"/>
         <span>{errors.lastName}</span>
       </div>
       <div>
         {/* <label htmlFor="email"className="lable">Email:</label> */}
-        <input type="email" name="email" value={formData.email} onChange={handleInputChange} className="input"/>
+        <input type="email" name="email" placeholder="email" value={formData.email} onChange={handleInputChange} className="input"/>
         <span>{errors.email}</span>
       </div>
       <div>
         
-        <input type="password" name="password" value={formData.password} onChange={handleInputChange} className="input"/>
+        <input type="password" name="password" placeholder="password" value={formData.password} onChange={handleInputChange} className="input"/>
         <span className="span">{errors.password}</span>
       </div>
       <button type="submit" className="button">Submit</button>
